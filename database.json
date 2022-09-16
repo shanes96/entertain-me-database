@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "isArtist": false,
+      "email": "johnsmith@gmail.com",
+      "phoneNumber": "553-220-8263"
+    },
+    {
+      "id": 2,
+      "name": "Jessica Jones",
+      "isArtist": false,
+      "email": "jessicajones@gmail.com",
+      "phoneNumber": "665-983-3928"
+    },
+    {
+      "id": 3,
+      "name": "Bruno Mars",
+      "isArtist": true,
+      "email": "brunomars@gmail.com",
+      "phoneNumber": "998-736-0193"
+    },
+    {
+      "id": 4,
+      "name": "Post Malone",
+      "isArtist": true,
+      "email": "postmalone@gmail.com",
+      "phoneNumber": "522-7453-9374"
+    },
+    {
+      "id": 5,
+      "name": "The 1975",
+      "isArtist": true,
+      "email": "the1975@gmail.com",
+      "phoneNumber": "645-940-3213"
+    },
+    {
+      "id": 6,
+      "name": "Matthew Thomas",
+      "isArtist": false,
+      "email": "matthewthomas@gmail.com",
+      "phoneNumber": "431-938-5241"
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "userId": 4
+    },
+    {
+      "id": 3,
+      "userId": 5
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "userId": 6
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "description": "This place is awesome! Would play here again!",
+      "venueId": 1,
+      "artistId": 1,
+      "bookAgain": "Yes"
+    },
+    {
+      "id": 2,
+      "description": "Venue owner is a jerk! Did not pay us and load in sucked!",
+      "venueId": 2,
+      "artistId": 2,
+      "bookAgain": "No"
+    },
+    {
+      "id": 3,
+      "description": "Very cool spot, definitely artist-friendly staff and venue",
+      "venueId": 3,
+      "artistId": 3,
+      "bookAgain": "Yes"
+    }
+  ],
+  "venues": [
+    {
+      "id": 1,
+      "name": "Mercy Lounge",
+      "address": "1 Cannery Row",
+      "cityName": "Nashville",
+      "stateName": "Tennessee"
+    },
+    {
+      "id": 2,
+      "name": "The East Room",
+      "address": "2412 Gallatin Ave",
+      "cityName": "Nashville",
+      "stateName": "Tennessee"
+    },
+    {
+      "id": 3,
+      "name": "The Basement East",
+      "address": "917 Woodland St",
+      "cityName": "Nashville",
+      "stateName": "Tennessee"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "description": "Single Release Party for Bruno Mars!",
+      "venueId": 1,
+      "artistId": 1,
+      "ticketPrice": "15",
+      "date": "2022-09-28",
+      "time": "22:54",
+      "artist": "1",
+      "venue": "2",
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "description": "Post Malone Bringing The House Down Friday Night!!",
+      "venueId": 2,
+      "artistId": 2,
+      "ticketPrice": 15,
+      "date": "10/11/2022",
+      "time": "7:30PM",
+      "userId": 4
+    },
+    {
+      "id": 3,
+      "description": "Our Favorite Brits, The 1975 Are Invading The Basement East This Saturday Night! ",
+      "venueId": 3,
+      "artistId": 3,
+      "ticketPrice": 20,
+      "date": "11/02/2022",
+      "time": "8:00PM",
+      "userId": 5
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "eventId": 1,
+      "customerId": 1
+    },
+    {
+      "id": 2,
+      "eventId": 2,
+      "customerId": 2
+    },
+    {
+      "id": 3,
+      "eventId": 3,
+      "customerId": 3
+    }
+  ]
+}
