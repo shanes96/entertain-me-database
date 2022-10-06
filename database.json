@@ -46,15 +46,24 @@
   "artists": [
     {
       "id": 1,
-      "userId": 3
+      "userId": 3,
+      "spotifyLink": "https://open.spotify.com/embed/artist/0du5cEVh5yTK9QJze8zA0C?utm_source=generator",
+      "profilePageImage": "https://i0.wp.com/thepopsmarts.com/wp-content/uploads/2022/01/Bruno-Mars-Vocal-Profile.png?fit=1200%2C628&ssl=1",
+      "artistPagePicture": "https://www.dropbox.com/s/71xyr3bg77ca14u/Bruno_Mars%282%29.webp?raw=1"
     },
     {
       "id": 2,
-      "userId": 4
+      "userId": 4,
+      "spotifyLink": "https://open.spotify.com/embed/artist/246dkjvS1zLTtiykXe5h60?utm_source=generator",
+      "profilePageImage": "https://twt-thumbs.washtimes.com/media/image/2022/08/11/outside_lands_music_festival_92038_c0-125-3000-1875_s1200x700.jpg?5df86175492ddcdc04d9d2b6261257b2d49617ee",
+      "artistPagePicture": "https://www.dropbox.com/s/vxxtr2njzamnmxw/Post-Malone-HyperX.webp?raw=1"
     },
     {
       "id": 3,
-      "userId": 5
+      "userId": 5,
+      "spotifyLink": "https://open.spotify.com/embed/artist/3mIj9lX2MWuHmhNCA7LSCW?utm_source=generator",
+      "profilePageImage": "https://readdork.com/wp-content/uploads/2022/07/The-1975-beach.jpg",
+      "artistPagePicture": "https://www.dropbox.com/s/adgytgbdyhdg4ux/The-1975-4.webp?raw=1"
     }
   ],
   "customers": [
@@ -87,11 +96,11 @@
       "bookAgain": "No"
     },
     {
-      "id": 3,
-      "description": "Very cool spot, definitely artist-friendly staff and venue",
+      "description": "awesome place!",
       "venueId": 3,
-      "artistId": 3,
-      "bookAgain": "Yes"
+      "artistId": 1,
+      "bookAgain": "Yes",
+      "id": 3
     }
   ],
   "venues": [
@@ -100,21 +109,24 @@
       "name": "Mercy Lounge",
       "address": "1 Cannery Row",
       "cityName": "Nashville",
-      "stateName": "Tennessee"
+      "stateName": "Tennessee",
+      "venuePagePicture": "https://www.dropbox.com/s/wr2cviwgpyabgf9/ml%205.webp?raw=1"
     },
     {
       "id": 2,
       "name": "The East Room",
       "address": "2412 Gallatin Ave",
       "cityName": "Nashville",
-      "stateName": "Tennessee"
+      "stateName": "Tennessee",
+      "venuePagePicture": "https://www.dropbox.com/s/zdohkvj0h3lvkje/the-east-room-bmYYL.webp?raw=1"
     },
     {
       "id": 3,
       "name": "The Basement East",
       "address": "917 Woodland St",
       "cityName": "Nashville",
-      "stateName": "Tennessee"
+      "stateName": "Tennessee",
+      "venuePagePicture": "https://www.dropbox.com/s/j062tiw0gwtkk8h/the%20basement%202.webp?raw=1"
     }
   ],
   "events": [
@@ -123,11 +135,9 @@
       "description": "Single Release Party for Bruno Mars!",
       "venueId": 1,
       "artistId": 1,
-      "ticketPrice": "15",
-      "date": "2022-09-28",
+      "ticketPrice": 15,
+      "date": "2022-10-31",
       "time": "22:54",
-      "artist": "1",
-      "venue": "2",
       "userId": 3
     },
     {
@@ -136,7 +146,7 @@
       "venueId": 2,
       "artistId": 2,
       "ticketPrice": 15,
-      "date": "10/11/2022",
+      "date": "2022-10-01",
       "time": "7:30PM",
       "userId": 4
     },
@@ -146,7 +156,7 @@
       "venueId": 3,
       "artistId": 3,
       "ticketPrice": 20,
-      "date": "11/02/2022",
+      "date": "11-02-2022",
       "time": "8:00PM",
       "userId": 5
     }
@@ -155,17 +165,44 @@
     {
       "id": 1,
       "eventId": 1,
-      "customerId": 1
+      "userId": 1,
+      "purchaseTicketAmount": 2
     },
     {
       "id": 2,
       "eventId": 2,
-      "customerId": 2
+      "userId": 2,
+      "purchaseTicketAmount": 2
     },
     {
-      "id": 3,
       "eventId": 3,
-      "customerId": 3
+      "userId": 1,
+      "purchaseTicketAmount": 5,
+      "id": 4
+    },
+    {
+      "eventId": 3,
+      "userId": 2,
+      "purchaseTicketAmount": 1,
+      "id": 6
+    },
+    {
+      "eventId": 1,
+      "userId": 1,
+      "purchaseTicketAmount": 2,
+      "id": 7
+    },
+    {
+      "eventId": 1,
+      "userId": 1,
+      "purchaseTicketAmount": 4,
+      "id": 8
+    },
+    {
+      "eventId": 2,
+      "userId": 1,
+      "purchaseTicketAmount": 2,
+      "id": 9
     }
   ]
 }
